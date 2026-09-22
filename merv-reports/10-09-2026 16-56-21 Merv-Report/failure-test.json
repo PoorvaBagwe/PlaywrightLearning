@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 16:57:45 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 6,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty credentials",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:17:20\n\n15 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  16 |   console.log(errorMsg);\n> 17 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  18 | });\n  19 |\n  20 | test(\"verify user able to check errormsg for empty username\", async ({ page }) => {",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T11:26:23.011Z",
+      "endTime": "2026-09-10T11:26:25.152Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Password is required1\"\nReceived: \"Epic sadface: Password is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:43:20\n\n41 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  42 |   console.log(errorMsg);\n> 43 |   expect(errorMsg).toBe(\"Epic sadface: Password is required1\");\n     |                    ^\n  44 | });\n  45 |\n  46 | test(\"verify user able to check errormsg for wrong credentials\", async ({ page }) => {",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T11:26:29.502Z",
+      "endTime": "2026-09-10T11:26:31.297Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› firefox › example.spec.js › verify user able to check errormsg for empty credentials",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:17:20\n\n15 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  16 |   console.log(errorMsg);\n> 17 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  18 | });\n  19 |\n  20 | test(\"verify user able to check errormsg for empty username\", async ({ page }) => {",
+      "tags": [
+        "firefox"
+      ],
+      "startTime": "2026-09-10T11:26:35.866Z",
+      "endTime": "2026-09-10T11:26:45.697Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› firefox › example.spec.js › verify user able to check errormsg for empty password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Password is required1\"\nReceived: \"Epic sadface: Password is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:43:20\n\n41 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  42 |   console.log(errorMsg);\n> 43 |   expect(errorMsg).toBe(\"Epic sadface: Password is required1\");\n     |                    ^\n  44 | });\n  45 |\n  46 | test(\"verify user able to check errormsg for wrong credentials\", async ({ page }) => {",
+      "tags": [
+        "firefox"
+      ],
+      "startTime": "2026-09-10T11:26:49.745Z",
+      "endTime": "2026-09-10T11:26:52.844Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› webkit › example.spec.js › verify user able to check errormsg for empty password",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Password is required1\"\nReceived: \"Epic sadface: Password is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:43:20\n\n41 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  42 |   console.log(errorMsg);\n> 43 |   expect(errorMsg).toBe(\"Epic sadface: Password is required1\");\n     |                    ^\n  44 | });\n  45 |\n  46 | test(\"verify user able to check errormsg for wrong credentials\", async ({ page }) => {",
+      "tags": [
+        "webkit"
+      ],
+      "startTime": "2026-09-10T11:27:12.933Z",
+      "endTime": "2026-09-10T11:27:24.622Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› webkit › example.spec.js › verify user able to check errormsg for empty credentials",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:17:20\n\n15 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  16 |   console.log(errorMsg);\n> 17 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  18 | });\n  19 |\n  20 | test(\"verify user able to check errormsg for empty username\", async ({ page }) => {",
+      "tags": [
+        "webkit"
+      ],
+      "startTime": "2026-09-10T11:27:36.562Z",
+      "endTime": "2026-09-10T11:27:42.659Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

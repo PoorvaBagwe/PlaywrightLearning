@@ -1,0 +1,14 @@
+{"ts":"2026-09-22T12:51:50.451Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T12:51:51.335Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing post"}
+{"ts":"2026-09-22T12:51:51.571Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing post"}
+{"ts":"2026-09-22T12:51:51.743Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:51:52.017Z","level":"INFO","name":"Merv","msg":"POST \"/objects\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:51:52.136Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:51:52.527Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testing post (PASSED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:52:09.421Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T12:52:10.184Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing post"}
+{"ts":"2026-09-22T12:52:10.409Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing post"}
+{"ts":"2026-09-22T12:52:10.513Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:52:10.717Z","level":"INFO","name":"Merv","msg":"POST \"/objects\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:52:10.816Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}
+{"ts":"2026-09-22T12:52:11.153Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testing post (PASSED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testing post"}

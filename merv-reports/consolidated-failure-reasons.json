@@ -1,0 +1,204 @@
+{
+  "generatedAtMillis": 1790085999219,
+  "failureReasons": [
+    {
+      "reason": "Script failure: Error: locator.fill: value: expected string, got object\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+      "count": 26,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › valid username and valid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › empty username and empty password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › empty username with valid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › empty username with invalid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › valid username with empty password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › invalid username with empty password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › invalid username with invalid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › valid username with invalid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › invalid username with valid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username containing spaces with valid password",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › valid username with password containing spaces",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with only spaces",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with only spaces",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with special characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with special characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with numeric characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with uppercase characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with numeric characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with uppercase characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with lowercase characters",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with one incorrect character",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with one incorrect character",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with additional character",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with additional character",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › password with special character appended",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        },
+        {
+          "testcaseName": "› chromium › example.spec.js › username with special character appended",
+          "runFolder": "22-09-2026 16-32-49 Merv-Report",
+          "runTimestampMillis": 1790075044317.721
+        }
+      ]
+    },
+    {
+      "reason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n\n16 | async function validateErrorMsg(page, expectedErrorMsg) {\n  17 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 18 |   expect(errorMsg).toBe(expectedErrorMsg);\n     |                    ^\n  19 | }\n  20 |\n  21 | for (let data of testdata) {",
+      "count": 4,
+      "testcases": [
+        {
+          "testcaseName": "› firefox › example.spec.js › verify user able to check errormsg for empty credentials",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        },
+        {
+          "testcaseName": "› firefox › example.spec.js › verify user able to check errormsg for empty username",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        },
+        {
+          "testcaseName": "› webkit › example.spec.js › verify user able to check errormsg for empty username",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        },
+        {
+          "testcaseName": "› webkit › example.spec.js › verify user able to check errormsg for empty credentials",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        }
+      ]
+    },
+    {
+      "reason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+      "count": 3,
+      "testcases": [
+        {
+          "testcaseName": "› chromium › example.spec.js › PlaywrightLearning",
+          "runFolder": "10-09-2026 16-41-25 Merv-Report",
+          "runTimestampMillis": 1789038701421.56
+        },
+        {
+          "testcaseName": "› firefox › example.spec.js › PlaywrightLearning",
+          "runFolder": "10-09-2026 16-41-25 Merv-Report",
+          "runTimestampMillis": 1789038701421.56
+        },
+        {
+          "testcaseName": "› webkit › example.spec.js › PlaywrightLearning",
+          "runFolder": "10-09-2026 16-41-25 Merv-Report",
+          "runTimestampMillis": 1789038701421.56
+        }
+      ]
+    },
+    {
+      "reason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Password is required1\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n\n16 | async function validateErrorMsg(page, expectedErrorMsg) {\n  17 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n> 18 |   expect(errorMsg).toBe(expectedErrorMsg);\n     |                    ^\n  19 | }\n  20 |\n  21 | for (let data of testdata) {",
+      "count": 2,
+      "testcases": [
+        {
+          "testcaseName": "› firefox › example.spec.js › verify user able to check errormsg for empty password",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        },
+        {
+          "testcaseName": "› webkit › example.spec.js › verify user able to check errormsg for empty password",
+          "runFolder": "10-09-2026 17-27-33 Merv-Report",
+          "runTimestampMillis": 1789041547563.9138
+        }
+      ]
+    }
+  ]
+}

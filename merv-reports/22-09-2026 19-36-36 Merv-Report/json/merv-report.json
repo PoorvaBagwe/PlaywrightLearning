@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790085999155,
+  "exportDate": "Tue Sep 22 2026 19:36:39 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-22T14:06:36.816Z",
+    "endTime": "2026-09-22T14:06:39.155Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testcases › Api testing delete",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T14:06:37.824Z",
+        "endTime": "2026-09-22T14:06:38.120Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:06:37.913Z",
+            "endTime": "2026-09-22T14:06:37.919Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "DELETE \"/objects/ff808181a09d98f701a0c96fe0c26f38\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:06:37.925Z",
+            "endTime": "2026-09-22T14:06:38.165Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "exportDate": "Tue Sep 22 2026 16:39:37 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 4,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty credentials",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T11:09:27.465Z",
+      "endTime": "2026-09-22T11:09:28.867Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty username",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T11:09:27.509Z",
+      "endTime": "2026-09-22T11:09:28.918Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T11:09:33.121Z",
+      "endTime": "2026-09-22T11:09:34.395Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for wrong credentials",
+      "status": "FAILED",
+      "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T11:09:33.212Z",
+      "endTime": "2026-09-22T11:09:34.270Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790082154803,
+  "exportDate": "Tue Sep 22 2026 18:32:34 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-22T13:02:30.148Z",
+    "endTime": "2026-09-22T13:02:34.803Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testing post",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:32:14\n\n30 |     let responseBody = await response.json();\n  31 |     console.log(responseBody);\n> 32 |     contentId = responseBody.id;\n     |              ^\n  33 |     });\n  34 |\n  35 |     test(\"Api testing put\", async ({request}) => {",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T13:02:31.409Z",
+        "endTime": "2026-09-22T13:02:31.715Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.500Z",
+            "endTime": "2026-09-22T13:02:31.503Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "POST \"/objects\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.507Z",
+            "endTime": "2026-09-22T13:02:31.773Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.778Z",
+            "endTime": "2026-09-22T13:02:31.779Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:32:14\n\n30 |     let responseBody = await response.json();\n  31 |     console.log(responseBody);\n> 32 |     contentId = responseBody.id;\n     |              ^\n  33 |     });\n  34 |\n  35 |     test(\"Api testing put\", async ({request}) => {",
+            "actual": "ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:32:14\n\n30 |     let responseBody = await response.json();\n  31 |     console.log(responseBody);\n> 32 |     contentId = responseBody.id;\n     |              ^\n  33 |     });\n  34 |\n  35 |     test(\"Api testing put\", async ({request}) => {",
+            "startTime": "2026-09-22T13:02:31.409Z",
+            "endTime": "2026-09-22T13:02:31.715Z"
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testing",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T13:02:31.476Z",
+        "endTime": "2026-09-22T13:02:31.784Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.553Z",
+            "endTime": "2026-09-22T13:02:31.563Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "GET \"/objects\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.574Z",
+            "endTime": "2026-09-22T13:02:31.824Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:31.829Z",
+            "endTime": "2026-09-22T13:02:31.829Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testing put",
+        "status": "FAILED",
+        "failureReason": "Script failure: ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:36:79\n\n34 |\n  35 |     test(\"Api testing put\", async ({request}) => {\n> 36 |     const response = await request.put(`https://api.restful-api.dev/objects/${contentId}`,\n     |                                                                               ^\n  37 |         {\n  38 |         headers : {\n  39 |             \"Content-Type\": \"application/json\"",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T13:02:33.799Z",
+        "endTime": "2026-09-22T13:02:33.810Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T13:02:33.809Z",
+            "endTime": "2026-09-22T13:02:33.810Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:36:79\n\n34 |\n  35 |     test(\"Api testing put\", async ({request}) => {\n> 36 |     const response = await request.put(`https://api.restful-api.dev/objects/${contentId}`,\n     |                                                                               ^\n  37 |         {\n  38 |         headers : {\n  39 |             \"Content-Type\": \"application/json\"",
+            "actual": "ReferenceError: contentId is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:36:79\n\n34 |\n  35 |     test(\"Api testing put\", async ({request}) => {\n> 36 |     const response = await request.put(`https://api.restful-api.dev/objects/${contentId}`,\n     |                                                                               ^\n  37 |         {\n  38 |         headers : {\n  39 |             \"Content-Type\": \"application/json\"",
+            "startTime": "2026-09-22T13:02:33.799Z",
+            "endTime": "2026-09-22T13:02:33.810Z"
+          }
+        ]
+      }
+    ]
+  }
+}

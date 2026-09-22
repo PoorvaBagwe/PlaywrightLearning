@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "exportDate": "Tue Sep 22 2026 19:29:59 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 1,
+  "failures": [
+    {
+      "testcaseName": "› chromium › api.spec.js › Api testcases › Api testing delete",
+      "status": "FAILED",
+      "failureReason": "Script failure: TypeError: response is not a function\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\api.spec.js:73:30\n\n71 |     const response = await request.delete(\"https://api.restful-api.dev/objects/{6}\")\n  72 |     //expect(response.status()).toBe(200)\n> 73 |     let responseBody = await response();\n     |                              ^\n  74 |     console.log(responseBody);\n  75 |    // contentId = responseBody.id;\n  76 |     });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T13:59:58.243Z",
+      "endTime": "2026-09-22T13:59:58.467Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

@@ -1,0 +1,1885 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790074572685,
+  "exportDate": "Tue Sep 22 2026 16:26:12 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-22T10:53:18.454Z",
+    "endTime": "2026-09-22T10:56:12.685Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username and valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:20.688Z",
+        "endTime": "2026-09-22T10:53:27.732Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:20.848Z",
+            "endTime": "2026-09-22T10:53:21.444Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:21.448Z",
+            "endTime": "2026-09-22T10:53:21.462Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:21.467Z",
+            "endTime": "2026-09-22T10:53:22.345Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:22.360Z",
+            "endTime": "2026-09-22T10:53:25.732Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:26.360Z",
+            "endTime": "2026-09-22T10:53:28.459Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fb9f28f75095a0dff219-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:20.688Z",
+            "endTime": "2026-09-22T10:53:27.732Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fb9f28f75095a0dff219-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username and empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:20.796Z",
+        "endTime": "2026-09-22T10:53:26.928Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:20.975Z",
+            "endTime": "2026-09-22T10:53:21.747Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:21.752Z",
+            "endTime": "2026-09-22T10:53:21.763Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:21.766Z",
+            "endTime": "2026-09-22T10:53:22.561Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:22.574Z",
+            "endTime": "2026-09-22T10:53:25.716Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:26.256Z",
+            "endTime": "2026-09-22T10:53:27.840Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:20.796Z",
+            "endTime": "2026-09-22T10:53:26.928Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:34.874Z",
+        "endTime": "2026-09-22T10:53:37.162Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.345Z",
+            "endTime": "2026-09-22T10:53:35.825Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.829Z",
+            "endTime": "2026-09-22T10:53:35.843Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.846Z",
+            "endTime": "2026-09-22T10:53:36.475Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:36.484Z",
+            "endTime": "2026-09-22T10:53:37.134Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:37.662Z",
+            "endTime": "2026-09-22T10:53:38.078Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:34.874Z",
+            "endTime": "2026-09-22T10:53:37.162Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-459969ef38c7406aaf62-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:35.238Z",
+        "endTime": "2026-09-22T10:53:37.540Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.413Z",
+            "endTime": "2026-09-22T10:53:35.893Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.897Z",
+            "endTime": "2026-09-22T10:53:35.908Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:35.911Z",
+            "endTime": "2026-09-22T10:53:36.576Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:36.588Z",
+            "endTime": "2026-09-22T10:53:36.991Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:37.662Z",
+            "endTime": "2026-09-22T10:53:38.159Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:35.238Z",
+            "endTime": "2026-09-22T10:53:37.540Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e5519961992ac78d8682-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:47.096Z",
+        "endTime": "2026-09-22T10:53:49.018Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:47.457Z",
+            "endTime": "2026-09-22T10:53:48.453Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:48.457Z",
+            "endTime": "2026-09-22T10:53:48.477Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:48.482Z",
+            "endTime": "2026-09-22T10:53:48.911Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:48.923Z",
+            "endTime": "2026-09-22T10:53:49.313Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:49.777Z",
+            "endTime": "2026-09-22T10:53:50.310Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:47.096Z",
+            "endTime": "2026-09-22T10:53:49.018Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:53:53.624Z",
+        "endTime": "2026-09-22T10:53:55.759Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:53.742Z",
+            "endTime": "2026-09-22T10:53:54.568Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:54.574Z",
+            "endTime": "2026-09-22T10:53:54.590Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:54.593Z",
+            "endTime": "2026-09-22T10:53:55.036Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:55.046Z",
+            "endTime": "2026-09-22T10:53:55.390Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:53:55.873Z",
+            "endTime": "2026-09-22T10:53:56.674Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:53:53.624Z",
+            "endTime": "2026-09-22T10:53:55.759Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:00.373Z",
+        "endTime": "2026-09-22T10:54:01.956Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:00.730Z",
+            "endTime": "2026-09-22T10:54:01.232Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:01.239Z",
+            "endTime": "2026-09-22T10:54:01.250Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:01.256Z",
+            "endTime": "2026-09-22T10:54:01.562Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:01.574Z",
+            "endTime": "2026-09-22T10:54:01.924Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:02.248Z",
+            "endTime": "2026-09-22T10:54:02.777Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:00.373Z",
+            "endTime": "2026-09-22T10:54:01.956Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:08.409Z",
+        "endTime": "2026-09-22T10:54:10.372Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:08.585Z",
+            "endTime": "2026-09-22T10:54:09.556Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:09.561Z",
+            "endTime": "2026-09-22T10:54:09.580Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:09.586Z",
+            "endTime": "2026-09-22T10:54:09.998Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:10.009Z",
+            "endTime": "2026-09-22T10:54:10.394Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:10.816Z",
+            "endTime": "2026-09-22T10:54:11.483Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:08.409Z",
+            "endTime": "2026-09-22T10:54:10.372Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:11.869Z",
+        "endTime": "2026-09-22T10:54:13.656Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:12.024Z",
+            "endTime": "2026-09-22T10:54:12.950Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:12.956Z",
+            "endTime": "2026-09-22T10:54:12.969Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:12.973Z",
+            "endTime": "2026-09-22T10:54:13.250Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:13.261Z",
+            "endTime": "2026-09-22T10:54:13.989Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:14.326Z",
+            "endTime": "2026-09-22T10:54:14.690Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:11.869Z",
+            "endTime": "2026-09-22T10:54:13.656Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username containing spaces with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:20.554Z",
+        "endTime": "2026-09-22T10:54:22.502Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:20.861Z",
+            "endTime": "2026-09-22T10:54:21.481Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:21.487Z",
+            "endTime": "2026-09-22T10:54:21.497Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:21.502Z",
+            "endTime": "2026-09-22T10:54:22.164Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:22.178Z",
+            "endTime": "2026-09-22T10:54:22.646Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:22.997Z",
+            "endTime": "2026-09-22T10:54:23.398Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-51c2d204ec0fad6ebdc7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:20.554Z",
+            "endTime": "2026-09-22T10:54:22.502Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-51c2d204ec0fad6ebdc7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with password containing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:25.123Z",
+        "endTime": "2026-09-22T10:54:26.522Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:25.276Z",
+            "endTime": "2026-09-22T10:54:26.329Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:26.338Z",
+            "endTime": "2026-09-22T10:54:26.357Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:26.361Z",
+            "endTime": "2026-09-22T10:54:26.623Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:26.634Z",
+            "endTime": "2026-09-22T10:54:26.962Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:27.340Z",
+            "endTime": "2026-09-22T10:54:27.684Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-851052daf9612741acda-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:25.123Z",
+            "endTime": "2026-09-22T10:54:26.522Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-851052daf9612741acda-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with only spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:31.846Z",
+        "endTime": "2026-09-22T10:54:33.591Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:31.960Z",
+            "endTime": "2026-09-22T10:54:32.279Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:32.284Z",
+            "endTime": "2026-09-22T10:54:32.299Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:32.304Z",
+            "endTime": "2026-09-22T10:54:32.957Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:32.967Z",
+            "endTime": "2026-09-22T10:54:33.342Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:33.708Z",
+            "endTime": "2026-09-22T10:54:33.993Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d9a546983a594e6e8373-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:31.846Z",
+            "endTime": "2026-09-22T10:54:33.591Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d9a546983a594e6e8373-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with only spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:37.556Z",
+        "endTime": "2026-09-22T10:54:39.212Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:37.655Z",
+            "endTime": "2026-09-22T10:54:38.158Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:38.163Z",
+            "endTime": "2026-09-22T10:54:38.177Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:38.180Z",
+            "endTime": "2026-09-22T10:54:38.499Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:38.510Z",
+            "endTime": "2026-09-22T10:54:38.911Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:39.344Z",
+            "endTime": "2026-09-22T10:54:39.781Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d6ba8700d90e46df3548-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:37.556Z",
+            "endTime": "2026-09-22T10:54:39.212Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d6ba8700d90e46df3548-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with special characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:43.463Z",
+        "endTime": "2026-09-22T10:54:45.377Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:43.580Z",
+            "endTime": "2026-09-22T10:54:43.983Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:43.988Z",
+            "endTime": "2026-09-22T10:54:44.000Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:44.006Z",
+            "endTime": "2026-09-22T10:54:44.351Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:44.362Z",
+            "endTime": "2026-09-22T10:54:44.930Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:45.480Z",
+            "endTime": "2026-09-22T10:54:45.865Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e6e6ea424cd32efe1dd8-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:43.463Z",
+            "endTime": "2026-09-22T10:54:45.377Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e6e6ea424cd32efe1dd8-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with special characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:49.242Z",
+        "endTime": "2026-09-22T10:54:51.095Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:49.448Z",
+            "endTime": "2026-09-22T10:54:50.190Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:50.195Z",
+            "endTime": "2026-09-22T10:54:50.213Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:50.219Z",
+            "endTime": "2026-09-22T10:54:50.660Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:50.673Z",
+            "endTime": "2026-09-22T10:54:51.090Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:51.449Z",
+            "endTime": "2026-09-22T10:54:52.012Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e4334303907489d16cbb-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:49.242Z",
+            "endTime": "2026-09-22T10:54:51.095Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e4334303907489d16cbb-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with numeric characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:57.065Z",
+        "endTime": "2026-09-22T10:55:00.314Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:57.210Z",
+            "endTime": "2026-09-22T10:54:58.446Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:58.453Z",
+            "endTime": "2026-09-22T10:54:58.466Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:58.471Z",
+            "endTime": "2026-09-22T10:54:59.160Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:59.171Z",
+            "endTime": "2026-09-22T10:55:00.124Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:00.878Z",
+            "endTime": "2026-09-22T10:55:01.658Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-6a90ddad60c474d2a364-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:57.065Z",
+            "endTime": "2026-09-22T10:55:00.314Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-6a90ddad60c474d2a364-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with numeric characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:54:57.228Z",
+        "endTime": "2026-09-22T10:54:59.369Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:57.596Z",
+            "endTime": "2026-09-22T10:54:59.285Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:59.290Z",
+            "endTime": "2026-09-22T10:54:59.305Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:59.309Z",
+            "endTime": "2026-09-22T10:54:59.690Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:54:59.700Z",
+            "endTime": "2026-09-22T10:55:00.310Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:00.964Z",
+            "endTime": "2026-09-22T10:55:01.379Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-131377a2d1404373b997-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:54:57.228Z",
+            "endTime": "2026-09-22T10:54:59.369Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-131377a2d1404373b997-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with uppercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:10.174Z",
+        "endTime": "2026-09-22T10:55:11.738Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:10.430Z",
+            "endTime": "2026-09-22T10:55:11.315Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:11.321Z",
+            "endTime": "2026-09-22T10:55:11.330Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:11.336Z",
+            "endTime": "2026-09-22T10:55:11.661Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:11.672Z",
+            "endTime": "2026-09-22T10:55:12.027Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:12.399Z",
+            "endTime": "2026-09-22T10:55:12.821Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-45508929e5c6f1459931-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:10.174Z",
+            "endTime": "2026-09-22T10:55:11.738Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-45508929e5c6f1459931-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with uppercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:20.837Z",
+        "endTime": "2026-09-22T10:55:22.773Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:21.007Z",
+            "endTime": "2026-09-22T10:55:22.186Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:22.190Z",
+            "endTime": "2026-09-22T10:55:22.200Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:22.205Z",
+            "endTime": "2026-09-22T10:55:22.521Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:22.529Z",
+            "endTime": "2026-09-22T10:55:22.993Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:23.365Z",
+            "endTime": "2026-09-22T10:55:24.082Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-edeaad9de2fb75ffe055-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:20.837Z",
+            "endTime": "2026-09-22T10:55:22.773Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-edeaad9de2fb75ffe055-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with lowercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:23.478Z",
+        "endTime": "2026-09-22T10:55:25.262Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:23.983Z",
+            "endTime": "2026-09-22T10:55:24.444Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:24.450Z",
+            "endTime": "2026-09-22T10:55:24.461Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:24.467Z",
+            "endTime": "2026-09-22T10:55:24.856Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:24.866Z",
+            "endTime": "2026-09-22T10:55:25.209Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:25.572Z",
+            "endTime": "2026-09-22T10:55:26.129Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-df23ed8eca446813a84c-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:23.478Z",
+            "endTime": "2026-09-22T10:55:25.262Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-df23ed8eca446813a84c-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with one incorrect character",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:32.722Z",
+        "endTime": "2026-09-22T10:55:34.972Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:32.938Z",
+            "endTime": "2026-09-22T10:55:33.860Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:33.865Z",
+            "endTime": "2026-09-22T10:55:33.877Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:33.882Z",
+            "endTime": "2026-09-22T10:55:34.386Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:34.394Z",
+            "endTime": "2026-09-22T10:55:35.158Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:35.589Z",
+            "endTime": "2026-09-22T10:55:36.076Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-b1200baad70ee471c84b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:32.722Z",
+            "endTime": "2026-09-22T10:55:34.972Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-b1200baad70ee471c84b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with one incorrect character",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:36.245Z",
+        "endTime": "2026-09-22T10:55:38.163Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:36.845Z",
+            "endTime": "2026-09-22T10:55:37.377Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:37.382Z",
+            "endTime": "2026-09-22T10:55:37.397Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:37.403Z",
+            "endTime": "2026-09-22T10:55:37.794Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:37.807Z",
+            "endTime": "2026-09-22T10:55:38.214Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:38.763Z",
+            "endTime": "2026-09-22T10:55:39.211Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-8237fa6f4dfe4ea7e165-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:36.245Z",
+            "endTime": "2026-09-22T10:55:38.163Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-8237fa6f4dfe4ea7e165-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with additional character",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:46.422Z",
+        "endTime": "2026-09-22T10:55:50.168Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:46.607Z",
+            "endTime": "2026-09-22T10:55:48.395Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:48.403Z",
+            "endTime": "2026-09-22T10:55:48.425Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:48.428Z",
+            "endTime": "2026-09-22T10:55:49.577Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:49.588Z",
+            "endTime": "2026-09-22T10:55:50.374Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:50.860Z",
+            "endTime": "2026-09-22T10:55:52.066Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-69ff884760923a36460b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:46.422Z",
+            "endTime": "2026-09-22T10:55:50.168Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-69ff884760923a36460b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with additional character",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:55:46.681Z",
+        "endTime": "2026-09-22T10:55:49.594Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:46.862Z",
+            "endTime": "2026-09-22T10:55:49.808Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:49.814Z",
+            "endTime": "2026-09-22T10:55:49.826Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:49.830Z",
+            "endTime": "2026-09-22T10:55:50.509Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:50.522Z",
+            "endTime": "2026-09-22T10:55:51.471Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:55:52.046Z",
+            "endTime": "2026-09-22T10:55:52.676Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-07407ca05435d3603b0d-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:55:46.681Z",
+            "endTime": "2026-09-22T10:55:49.594Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-07407ca05435d3603b0d-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with special character appended",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:56:00.396Z",
+        "endTime": "2026-09-22T10:56:03.249Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:00.537Z",
+            "endTime": "2026-09-22T10:56:01.356Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:01.361Z",
+            "endTime": "2026-09-22T10:56:01.377Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:01.382Z",
+            "endTime": "2026-09-22T10:56:01.920Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:01.929Z",
+            "endTime": "2026-09-22T10:56:02.693Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:03.254Z",
+            "endTime": "2026-09-22T10:56:04.159Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f81e345f8d6351e1a476-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:56:00.396Z",
+            "endTime": "2026-09-22T10:56:03.249Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-f81e345f8d6351e1a476-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with special character appended",
+        "status": "FAILED",
+        "failureReason": "Script failure: TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T10:56:00.669Z",
+        "endTime": "2026-09-22T10:56:02.932Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:00.857Z",
+            "endTime": "2026-09-22T10:56:01.666Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:01.672Z",
+            "endTime": "2026-09-22T10:56:01.685Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:01.689Z",
+            "endTime": "2026-09-22T10:56:02.356Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:02.366Z",
+            "endTime": "2026-09-22T10:56:02.875Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T10:56:03.364Z",
+            "endTime": "2026-09-22T10:56:03.886Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2f35bdd598f3eb13b008-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "actual": "TypeError: Cannot read properties of undefined (reading 'login')\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:30\n\n11 |       let lgobject = new LoginPage(page);\n  12 |     //const loginPage = new LoginPage(page);\n> 13 |     await lgobject.loginPage.login(data.username, data.password);\n     |                              ^\n  14 |     await lgobject.loginPage.validateErrorMsg(data.errorMsg);\n  15 |   });\n  16 | }",
+            "startTime": "2026-09-22T10:56:00.669Z",
+            "endTime": "2026-09-22T10:56:02.932Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2f35bdd598f3eb13b008-video1.webm"
+        ]
+      }
+    ]
+  }
+}

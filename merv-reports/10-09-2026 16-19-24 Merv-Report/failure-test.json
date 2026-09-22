@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 16:20:34 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 3,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:176:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:26:60\n\n24 |   await page.locator('[data-test=\"login-button\"]').click();\n  25 |   \n> 26 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  27 |   console.log(errorMsg);\n  28 | });\n  29 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T10:49:25.391Z",
+      "endTime": "2026-09-10T10:49:57.843Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› firefox › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:176:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:26:60\n\n24 |   await page.locator('[data-test=\"login-button\"]').click();\n  25 |   \n> 26 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  27 |   console.log(errorMsg);\n  28 | });\n  29 |",
+      "tags": [
+        "firefox"
+      ],
+      "startTime": "2026-09-10T10:49:25.442Z",
+      "endTime": "2026-09-10T10:49:55.717Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› webkit › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:176:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:26:60\n\n24 |   await page.locator('[data-test=\"login-button\"]').click();\n  25 |   \n> 26 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n     |                                                            ^\n  27 |   console.log(errorMsg);\n  28 | });\n  29 |",
+      "tags": [
+        "webkit"
+      ],
+      "startTime": "2026-09-10T10:49:58.999Z",
+      "endTime": "2026-09-10T10:50:33.578Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

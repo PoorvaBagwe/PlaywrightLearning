@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "exportDate": "Fri Sep 11 2026 20:26:10 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 4,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty username",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: LoginPage is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:10:23\n\n8 | for (let data of testdata) {\n   9 |     test(data.testname, async ({ page }) => {\n> 10 |     const loginPage = new LoginPage(page);\n     |                       ^\n  11 |     await loginPage.login(data.username, data.password);\n  12 |     await loginPage.validateErrorMsg(data.errorMsg);\n  13 |   });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:55:59.302Z",
+      "endTime": "2026-09-11T14:56:04.324Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty credentials",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: LoginPage is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:10:23\n\n8 | for (let data of testdata) {\n   9 |     test(data.testname, async ({ page }) => {\n> 10 |     const loginPage = new LoginPage(page);\n     |                       ^\n  11 |     await loginPage.login(data.username, data.password);\n  12 |     await loginPage.validateErrorMsg(data.errorMsg);\n  13 |   });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:55:59.371Z",
+      "endTime": "2026-09-11T14:56:04.357Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for wrong credentials",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: LoginPage is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:10:23\n\n8 | for (let data of testdata) {\n   9 |     test(data.testname, async ({ page }) => {\n> 10 |     const loginPage = new LoginPage(page);\n     |                       ^\n  11 |     await loginPage.login(data.username, data.password);\n  12 |     await loginPage.validateErrorMsg(data.errorMsg);\n  13 |   });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:56:06.829Z",
+      "endTime": "2026-09-11T14:56:08.083Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › verify user able to check errormsg for empty password",
+      "status": "FAILED",
+      "failureReason": "Script failure: ReferenceError: LoginPage is not defined\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:10:23\n\n8 | for (let data of testdata) {\n   9 |     test(data.testname, async ({ page }) => {\n> 10 |     const loginPage = new LoginPage(page);\n     |                       ^\n  11 |     await loginPage.login(data.username, data.password);\n  12 |     await loginPage.validateErrorMsg(data.errorMsg);\n  13 |   });",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-11T14:56:06.829Z",
+      "endTime": "2026-09-11T14:56:08.082Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

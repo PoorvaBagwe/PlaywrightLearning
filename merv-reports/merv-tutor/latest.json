@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "sourceFile": "exercises/basics.js",
+  "sourceText": "import PromptSync from \"prompt-sync\"\r\n\r\n//PromptSync - class\r\n//\"prompt-sync\" - library (package)\r\n\r\nlet prompt = PromptSync();\r\n\r\nlet a = prompt(\"Enter your number\");\r\nconsole.log(\"you selected:\" + a);\r\n\r\n",
+  "sourceLines": [
+    "import PromptSync from \"prompt-sync\"",
+    "",
+    "//PromptSync - class",
+    "//\"prompt-sync\" - library (package)",
+    "",
+    "let prompt = PromptSync();",
+    "",
+    "let a = prompt(\"Enter your number\");",
+    "console.log(\"you selected:\" + a);",
+    "",
+    ""
+  ],
+  "codeLines": [
+    {
+      "sourceLine": 1,
+      "text": "import PromptSync from \"prompt-sync\""
+    },
+    {
+      "sourceLine": 6,
+      "text": "let prompt = PromptSync();"
+    },
+    {
+      "sourceLine": 8,
+      "text": "let a = prompt(\"Enter your number\");"
+    },
+    {
+      "sourceLine": 9,
+      "text": "console.log(\"you selected:\" + a);"
+    }
+  ],
+  "files": [
+    {
+      "id": "exercises/basics.js",
+      "name": "exercises/basics.js",
+      "sourceText": "import PromptSync from \"prompt-sync\"\r\n\r\n//PromptSync - class\r\n//\"prompt-sync\" - library (package)\r\n\r\nlet prompt = PromptSync();\r\n\r\nlet a = prompt(\"Enter your number\");\r\nconsole.log(\"you selected:\" + a);\r\n\r\n",
+      "sourceLines": [
+        "import PromptSync from \"prompt-sync\"",
+        "",
+        "//PromptSync - class",
+        "//\"prompt-sync\" - library (package)",
+        "",
+        "let prompt = PromptSync();",
+        "",
+        "let a = prompt(\"Enter your number\");",
+        "console.log(\"you selected:\" + a);",
+        "",
+        ""
+      ],
+      "codeLines": [
+        {
+          "sourceLine": 1,
+          "text": "import PromptSync from \"prompt-sync\""
+        },
+        {
+          "sourceLine": 6,
+          "text": "let prompt = PromptSync();"
+        },
+        {
+          "sourceLine": 8,
+          "text": "let a = prompt(\"Enter your number\");"
+        },
+        {
+          "sourceLine": 9,
+          "text": "console.log(\"you selected:\" + a);"
+        }
+      ],
+      "executedAt": "2026-08-27T14:50:55.217Z",
+      "complexity": {
+        "time": "O(1)",
+        "space": "O(1)",
+        "maxLoopDepth": 0,
+        "growsCollection": false,
+        "recursive": false
+      }
+    }
+  ],
+  "steps": [
+    {
+      "index": 0,
+      "line": 0,
+      "kind": "start",
+      "label": "Execution started",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 1,
+      "line": 0,
+      "kind": "call",
+      "label": "PromptSync(…) → \"[Function prompt]\"",
+      "vars": {},
+      "consoleLines": [],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 2,
+      "line": 6,
+      "kind": "var",
+      "label": "prompt",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 3,
+      "line": 0,
+      "kind": "call",
+      "label": "prompt(…) → \"8\"",
+      "vars": {
+        "prompt": "[Function prompt]"
+      },
+      "consoleLines": [],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 4,
+      "line": 8,
+      "kind": "var",
+      "label": "a",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "8"
+      },
+      "consoleLines": [],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 5,
+      "line": 9,
+      "kind": "console",
+      "label": "console.log: you selected:8",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "8"
+      },
+      "consoleLines": [
+        "you selected:8"
+      ],
+      "fileId": "exercises/basics.js"
+    },
+    {
+      "index": 6,
+      "line": 0,
+      "kind": "end",
+      "label": "Execution completed",
+      "vars": {
+        "prompt": "[Function prompt]",
+        "a": "8"
+      },
+      "consoleLines": [
+        "you selected:8"
+      ],
+      "fileId": "exercises/basics.js"
+    }
+  ],
+  "stats": {
+    "totalSteps": 7,
+    "totalIterations": 0,
+    "filesExecuted": 1,
+    "byFile": [
+      {
+        "fileId": "exercises/basics.js",
+        "name": "exercises/basics.js",
+        "steps": 7,
+        "iterations": 0
+      }
+    ]
+  },
+  "updatedAt": "2026-08-27T14:50:55.217Z"
+}

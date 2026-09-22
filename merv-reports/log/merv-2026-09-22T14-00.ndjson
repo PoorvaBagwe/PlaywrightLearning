@@ -1,0 +1,12 @@
+{"ts":"2026-09-22T14:00:43.799Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T14:00:44.707Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing delete"}
+{"ts":"2026-09-22T14:00:44.933Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing delete"}
+{"ts":"2026-09-22T14:00:45.054Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T14:00:45.279Z","level":"INFO","name":"Merv","msg":"DELETE \"/objects/%7B6%7D\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T14:00:45.654Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testcases › Api testing delete (PASSED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T14:04:04.743Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T14:04:05.736Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing delete"}
+{"ts":"2026-09-22T14:04:06.168Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing delete"}
+{"ts":"2026-09-22T14:04:06.287Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T14:04:06.555Z","level":"INFO","name":"Merv","msg":"DELETE \"/objects/6\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T14:04:07.075Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testcases › Api testing delete (PASSED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}

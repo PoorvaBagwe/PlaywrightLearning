@@ -1,0 +1,24 @@
+{
+  "name": "playwrightlearning",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "tutor": "merv-tutor",
+    "tutor-open": "merv-tutor open"
+  },
+  "dependencies": {
+    "merv-tutor": "^4.0.22",
+    "playwright": "^1.62.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0",
+    "merv-client": "^4.0.23",
+    "merv-client-playwright": "^4.0.23"
+  }
+}

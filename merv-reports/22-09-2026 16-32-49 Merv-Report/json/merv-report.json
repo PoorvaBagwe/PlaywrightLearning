@@ -1,0 +1,2119 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790075044316,
+  "exportDate": "Tue Sep 22 2026 16:34:04 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-22T11:02:49.539Z",
+    "endTime": "2026-09-22T11:04:04.316Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username and valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:02:50.647Z",
+        "endTime": "2026-09-22T11:02:51.941Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:50.761Z",
+            "endTime": "2026-09-22T11:02:51.085Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.088Z",
+            "endTime": "2026-09-22T11:02:51.097Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.100Z",
+            "endTime": "2026-09-22T11:02:51.412Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.420Z",
+            "endTime": "2026-09-22T11:02:51.810Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.820Z",
+            "endTime": "2026-09-22T11:02:52.071Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:52.175Z",
+            "endTime": "2026-09-22T11:02:52.351Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fb9f28f75095a0dff219-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:02:50.647Z",
+            "endTime": "2026-09-22T11:02:51.941Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fb9f28f75095a0dff219-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username and empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:02:50.685Z",
+        "endTime": "2026-09-22T11:02:51.987Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:50.776Z",
+            "endTime": "2026-09-22T11:02:51.087Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.090Z",
+            "endTime": "2026-09-22T11:02:51.098Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.101Z",
+            "endTime": "2026-09-22T11:02:51.348Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.356Z",
+            "endTime": "2026-09-22T11:02:51.811Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:51.821Z",
+            "endTime": "2026-09-22T11:02:52.086Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:52.176Z",
+            "endTime": "2026-09-22T11:02:52.366Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:02:50.685Z",
+            "endTime": "2026-09-22T11:02:51.987Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-fd26e6f9e91e19a0d713-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:02:56.360Z",
+        "endTime": "2026-09-22T11:02:57.497Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.446Z",
+            "endTime": "2026-09-22T11:02:56.798Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.802Z",
+            "endTime": "2026-09-22T11:02:56.810Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.813Z",
+            "endTime": "2026-09-22T11:02:57.156Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.163Z",
+            "endTime": "2026-09-22T11:02:57.473Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.485Z",
+            "endTime": "2026-09-22T11:02:57.634Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.731Z",
+            "endTime": "2026-09-22T11:02:57.910Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e5519961992ac78d8682-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:02:56.360Z",
+            "endTime": "2026-09-22T11:02:57.497Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e5519961992ac78d8682-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › empty username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:02:56.388Z",
+        "endTime": "2026-09-22T11:02:57.408Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.487Z",
+            "endTime": "2026-09-22T11:02:56.906Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.909Z",
+            "endTime": "2026-09-22T11:02:56.917Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:56.920Z",
+            "endTime": "2026-09-22T11:02:57.154Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.161Z",
+            "endTime": "2026-09-22T11:02:57.430Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.441Z",
+            "endTime": "2026-09-22T11:02:57.617Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:02:57.704Z",
+            "endTime": "2026-09-22T11:02:57.903Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-459969ef38c7406aaf62-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:02:56.388Z",
+            "endTime": "2026-09-22T11:02:57.408Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-459969ef38c7406aaf62-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:02.111Z",
+        "endTime": "2026-09-22T11:03:03.144Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.186Z",
+            "endTime": "2026-09-22T11:03:02.616Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.619Z",
+            "endTime": "2026-09-22T11:03:02.629Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.632Z",
+            "endTime": "2026-09-22T11:03:02.889Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.900Z",
+            "endTime": "2026-09-22T11:03:03.217Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:03.229Z",
+            "endTime": "2026-09-22T11:03:03.374Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:03.481Z",
+            "endTime": "2026-09-22T11:03:03.629Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:02.111Z",
+            "endTime": "2026-09-22T11:03:03.144Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-c0cb69243b9ebf2199ce-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with empty password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:02.160Z",
+        "endTime": "2026-09-22T11:03:03.181Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.244Z",
+            "endTime": "2026-09-22T11:03:02.656Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.660Z",
+            "endTime": "2026-09-22T11:03:02.668Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.671Z",
+            "endTime": "2026-09-22T11:03:02.921Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:02.931Z",
+            "endTime": "2026-09-22T11:03:03.202Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:03.212Z",
+            "endTime": "2026-09-22T11:03:03.373Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:03.478Z",
+            "endTime": "2026-09-22T11:03:03.660Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:02.160Z",
+            "endTime": "2026-09-22T11:03:03.181Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a28ecd4b714f588fe6ef-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:07.645Z",
+        "endTime": "2026-09-22T11:03:08.783Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:07.715Z",
+            "endTime": "2026-09-22T11:03:07.948Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:07.952Z",
+            "endTime": "2026-09-22T11:03:07.962Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:07.965Z",
+            "endTime": "2026-09-22T11:03:08.186Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.194Z",
+            "endTime": "2026-09-22T11:03:08.536Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.546Z",
+            "endTime": "2026-09-22T11:03:08.772Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.871Z",
+            "endTime": "2026-09-22T11:03:09.066Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:07.645Z",
+            "endTime": "2026-09-22T11:03:08.783Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-1842aec6f0bbaa769337-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with invalid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:07.678Z",
+        "endTime": "2026-09-22T11:03:08.778Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:07.752Z",
+            "endTime": "2026-09-22T11:03:08.083Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.087Z",
+            "endTime": "2026-09-22T11:03:08.098Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.102Z",
+            "endTime": "2026-09-22T11:03:08.295Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.306Z",
+            "endTime": "2026-09-22T11:03:08.651Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:08.662Z",
+            "endTime": "2026-09-22T11:03:08.917Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:09.008Z",
+            "endTime": "2026-09-22T11:03:09.163Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:07.678Z",
+            "endTime": "2026-09-22T11:03:08.778Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-4a2846b61324dcc86d72-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username containing spaces with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:12.877Z",
+        "endTime": "2026-09-22T11:03:13.912Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:12.965Z",
+            "endTime": "2026-09-22T11:03:13.197Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.200Z",
+            "endTime": "2026-09-22T11:03:13.209Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.213Z",
+            "endTime": "2026-09-22T11:03:13.413Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.420Z",
+            "endTime": "2026-09-22T11:03:13.705Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.715Z",
+            "endTime": "2026-09-22T11:03:13.866Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.966Z",
+            "endTime": "2026-09-22T11:03:14.212Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-51c2d204ec0fad6ebdc7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:12.877Z",
+            "endTime": "2026-09-22T11:03:13.912Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-51c2d204ec0fad6ebdc7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › invalid username with valid password",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:13.003Z",
+        "endTime": "2026-09-22T11:03:13.997Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.080Z",
+            "endTime": "2026-09-22T11:03:13.455Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.459Z",
+            "endTime": "2026-09-22T11:03:13.467Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.470Z",
+            "endTime": "2026-09-22T11:03:13.684Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:13.693Z",
+            "endTime": "2026-09-22T11:03:13.995Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:14.004Z",
+            "endTime": "2026-09-22T11:03:14.180Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:14.271Z",
+            "endTime": "2026-09-22T11:03:14.430Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:13.003Z",
+            "endTime": "2026-09-22T11:03:13.997Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-861c5ce2bb9bf363a5d0-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with only spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:18.201Z",
+        "endTime": "2026-09-22T11:03:19.563Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.292Z",
+            "endTime": "2026-09-22T11:03:18.595Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.600Z",
+            "endTime": "2026-09-22T11:03:18.610Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.614Z",
+            "endTime": "2026-09-22T11:03:19.019Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.030Z",
+            "endTime": "2026-09-22T11:03:19.343Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.354Z",
+            "endTime": "2026-09-22T11:03:19.609Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.755Z",
+            "endTime": "2026-09-22T11:03:19.937Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d9a546983a594e6e8373-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:18.201Z",
+            "endTime": "2026-09-22T11:03:19.563Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d9a546983a594e6e8373-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › valid username with password containing spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:18.236Z",
+        "endTime": "2026-09-22T11:03:19.465Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.335Z",
+            "endTime": "2026-09-22T11:03:18.770Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.775Z",
+            "endTime": "2026-09-22T11:03:18.784Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:18.788Z",
+            "endTime": "2026-09-22T11:03:19.055Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.064Z",
+            "endTime": "2026-09-22T11:03:19.339Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.351Z",
+            "endTime": "2026-09-22T11:03:19.614Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:19.758Z",
+            "endTime": "2026-09-22T11:03:19.980Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-851052daf9612741acda-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:18.236Z",
+            "endTime": "2026-09-22T11:03:19.465Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-851052daf9612741acda-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with special characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:23.947Z",
+        "endTime": "2026-09-22T11:03:25.346Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.021Z",
+            "endTime": "2026-09-22T11:03:24.361Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.365Z",
+            "endTime": "2026-09-22T11:03:24.375Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.379Z",
+            "endTime": "2026-09-22T11:03:24.733Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.742Z",
+            "endTime": "2026-09-22T11:03:25.106Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:25.118Z",
+            "endTime": "2026-09-22T11:03:25.386Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:25.516Z",
+            "endTime": "2026-09-22T11:03:25.739Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e6e6ea424cd32efe1dd8-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:23.947Z",
+            "endTime": "2026-09-22T11:03:25.346Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e6e6ea424cd32efe1dd8-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with only spaces",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:23.981Z",
+        "endTime": "2026-09-22T11:03:25.301Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.075Z",
+            "endTime": "2026-09-22T11:03:24.495Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.501Z",
+            "endTime": "2026-09-22T11:03:24.513Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.518Z",
+            "endTime": "2026-09-22T11:03:24.810Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:24.818Z",
+            "endTime": "2026-09-22T11:03:25.154Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:25.166Z",
+            "endTime": "2026-09-22T11:03:25.435Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:25.556Z",
+            "endTime": "2026-09-22T11:03:25.787Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-d6ba8700d90e46df3548-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:23.981Z",
+            "endTime": "2026-09-22T11:03:25.301Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-d6ba8700d90e46df3548-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with numeric characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:29.752Z",
+        "endTime": "2026-09-22T11:03:31.071Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:29.826Z",
+            "endTime": "2026-09-22T11:03:30.110Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.114Z",
+            "endTime": "2026-09-22T11:03:30.127Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.130Z",
+            "endTime": "2026-09-22T11:03:30.401Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.413Z",
+            "endTime": "2026-09-22T11:03:30.828Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.840Z",
+            "endTime": "2026-09-22T11:03:31.030Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:31.172Z",
+            "endTime": "2026-09-22T11:03:31.407Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-6a90ddad60c474d2a364-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:29.752Z",
+            "endTime": "2026-09-22T11:03:31.071Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-6a90ddad60c474d2a364-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with special characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:29.808Z",
+        "endTime": "2026-09-22T11:03:31.068Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:29.890Z",
+            "endTime": "2026-09-22T11:03:30.199Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.203Z",
+            "endTime": "2026-09-22T11:03:30.212Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.216Z",
+            "endTime": "2026-09-22T11:03:30.515Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.527Z",
+            "endTime": "2026-09-22T11:03:30.860Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:30.874Z",
+            "endTime": "2026-09-22T11:03:31.084Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:31.193Z",
+            "endTime": "2026-09-22T11:03:31.442Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-e4334303907489d16cbb-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:29.808Z",
+            "endTime": "2026-09-22T11:03:31.068Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-e4334303907489d16cbb-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with uppercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:36.079Z",
+        "endTime": "2026-09-22T11:03:37.363Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.164Z",
+            "endTime": "2026-09-22T11:03:36.432Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.437Z",
+            "endTime": "2026-09-22T11:03:36.448Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.452Z",
+            "endTime": "2026-09-22T11:03:36.774Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.783Z",
+            "endTime": "2026-09-22T11:03:37.087Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:37.098Z",
+            "endTime": "2026-09-22T11:03:37.363Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:37.483Z",
+            "endTime": "2026-09-22T11:03:37.687Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-45508929e5c6f1459931-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:36.079Z",
+            "endTime": "2026-09-22T11:03:37.363Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-45508929e5c6f1459931-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with numeric characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:36.117Z",
+        "endTime": "2026-09-22T11:03:37.388Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.230Z",
+            "endTime": "2026-09-22T11:03:36.525Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.530Z",
+            "endTime": "2026-09-22T11:03:36.541Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.545Z",
+            "endTime": "2026-09-22T11:03:36.814Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:36.823Z",
+            "endTime": "2026-09-22T11:03:37.195Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:37.208Z",
+            "endTime": "2026-09-22T11:03:37.434Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:37.547Z",
+            "endTime": "2026-09-22T11:03:37.773Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-131377a2d1404373b997-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:36.117Z",
+            "endTime": "2026-09-22T11:03:37.388Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-131377a2d1404373b997-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with lowercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:41.834Z",
+        "endTime": "2026-09-22T11:03:43.060Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:41.924Z",
+            "endTime": "2026-09-22T11:03:42.233Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.238Z",
+            "endTime": "2026-09-22T11:03:42.247Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.251Z",
+            "endTime": "2026-09-22T11:03:42.556Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.565Z",
+            "endTime": "2026-09-22T11:03:42.888Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.902Z",
+            "endTime": "2026-09-22T11:03:43.091Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:43.192Z",
+            "endTime": "2026-09-22T11:03:43.441Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-df23ed8eca446813a84c-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:41.834Z",
+            "endTime": "2026-09-22T11:03:43.060Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-df23ed8eca446813a84c-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with uppercase characters",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:41.837Z",
+        "endTime": "2026-09-22T11:03:43.090Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:41.924Z",
+            "endTime": "2026-09-22T11:03:42.162Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.166Z",
+            "endTime": "2026-09-22T11:03:42.177Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.180Z",
+            "endTime": "2026-09-22T11:03:42.484Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.494Z",
+            "endTime": "2026-09-22T11:03:42.882Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:42.896Z",
+            "endTime": "2026-09-22T11:03:43.096Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:43.194Z",
+            "endTime": "2026-09-22T11:03:43.396Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-edeaad9de2fb75ffe055-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:41.837Z",
+            "endTime": "2026-09-22T11:03:43.090Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-edeaad9de2fb75ffe055-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with one incorrect character",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:47.565Z",
+        "endTime": "2026-09-22T11:03:48.840Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:47.639Z",
+            "endTime": "2026-09-22T11:03:47.959Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:47.963Z",
+            "endTime": "2026-09-22T11:03:47.973Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:47.976Z",
+            "endTime": "2026-09-22T11:03:48.295Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.304Z",
+            "endTime": "2026-09-22T11:03:48.642Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.654Z",
+            "endTime": "2026-09-22T11:03:48.871Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.987Z",
+            "endTime": "2026-09-22T11:03:49.217Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-8237fa6f4dfe4ea7e165-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:47.565Z",
+            "endTime": "2026-09-22T11:03:48.840Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-8237fa6f4dfe4ea7e165-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with one incorrect character",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:47.601Z",
+        "endTime": "2026-09-22T11:03:48.756Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:47.686Z",
+            "endTime": "2026-09-22T11:03:48.136Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.142Z",
+            "endTime": "2026-09-22T11:03:48.152Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.157Z",
+            "endTime": "2026-09-22T11:03:48.426Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.434Z",
+            "endTime": "2026-09-22T11:03:48.747Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:48.759Z",
+            "endTime": "2026-09-22T11:03:48.980Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:49.077Z",
+            "endTime": "2026-09-22T11:03:49.274Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-b1200baad70ee471c84b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:47.601Z",
+            "endTime": "2026-09-22T11:03:48.756Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-b1200baad70ee471c84b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with additional character",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:53.621Z",
+        "endTime": "2026-09-22T11:03:54.915Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:53.697Z",
+            "endTime": "2026-09-22T11:03:54.012Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.016Z",
+            "endTime": "2026-09-22T11:03:54.025Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.028Z",
+            "endTime": "2026-09-22T11:03:54.366Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.375Z",
+            "endTime": "2026-09-22T11:03:54.708Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.720Z",
+            "endTime": "2026-09-22T11:03:54.913Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:55.058Z",
+            "endTime": "2026-09-22T11:03:55.286Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-69ff884760923a36460b-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:53.621Z",
+            "endTime": "2026-09-22T11:03:54.915Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-69ff884760923a36460b-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with additional character",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:53.657Z",
+        "endTime": "2026-09-22T11:03:54.969Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:53.736Z",
+            "endTime": "2026-09-22T11:03:54.051Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.055Z",
+            "endTime": "2026-09-22T11:03:54.064Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.067Z",
+            "endTime": "2026-09-22T11:03:54.401Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.410Z",
+            "endTime": "2026-09-22T11:03:54.750Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:54.761Z",
+            "endTime": "2026-09-22T11:03:54.980Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:55.122Z",
+            "endTime": "2026-09-22T11:03:55.337Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-07407ca05435d3603b0d-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:53.657Z",
+            "endTime": "2026-09-22T11:03:54.969Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-07407ca05435d3603b0d-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › username with special character appended",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:59.395Z",
+        "endTime": "2026-09-22T11:04:00.776Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.474Z",
+            "endTime": "2026-09-22T11:03:59.694Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.698Z",
+            "endTime": "2026-09-22T11:03:59.710Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.714Z",
+            "endTime": "2026-09-22T11:03:59.947Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.955Z",
+            "endTime": "2026-09-22T11:04:00.371Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:04:00.382Z",
+            "endTime": "2026-09-22T11:04:00.595Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:04:00.799Z",
+            "endTime": "2026-09-22T11:04:01.051Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-f81e345f8d6351e1a476-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:59.395Z",
+            "endTime": "2026-09-22T11:04:00.776Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-f81e345f8d6351e1a476-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › chromium › example.spec.js › password with special character appended",
+        "status": "FAILED",
+        "failureReason": "Script failure: Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T11:03:59.430Z",
+        "endTime": "2026-09-22T11:04:00.660Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.528Z",
+            "endTime": "2026-09-22T11:03:59.909Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.913Z",
+            "endTime": "2026-09-22T11:03:59.923Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:03:59.927Z",
+            "endTime": "2026-09-22T11:04:00.171Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › beforeEach hook › Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:04:00.179Z",
+            "endTime": "2026-09-22T11:04:00.499Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:04:00.512Z",
+            "endTime": "2026-09-22T11:04:00.711Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T11:04:00.868Z",
+            "endTime": "2026-09-22T11:04:01.117Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-2f35bdd598f3eb13b008-att0.png"
+            ]
+          },
+          {
+            "teststepName": "Script failure",
+            "stepType": "ASSERTION",
+            "status": "FAILED",
+            "errorMessage": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "actual": "Error: locator.fill: value: expected string, got object\n    at Proxy.fill (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:163:28)\n    at LoginPage.login (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:11:53)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:12:5\n\nat ..\\pages\\login_page.js:11\n\n   9 |    async login(username, password) {\n  10 |   await this.page.locator('[data-test=\"username\"]').click();\n> 11 |   await this.page.locator('[data-test=\"username\"]').fill(username);\n     |                                                     ^\n  12 |   await this.page.locator('[data-test=\"password\"]').click();\n  13 |   await this.page.locator('[data-test=\"password\"]').fill(password);\n  14 |   await this.page.locator('[data-test=\"login-button\"]').click();",
+            "startTime": "2026-09-22T11:03:59.430Z",
+            "endTime": "2026-09-22T11:04:00.660Z"
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-2f35bdd598f3eb13b008-video1.webm"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+[{
+
+"testname": "verify user able to check errormsg for empty credentials",
+
+"username": "",
+
+"password": "",
+
+"errorMsg": "Epic sadface: Username is required"
+
+},
+
+{
+
+"testname": "verify user able to check errormsg for empty username",
+
+"username": "",
+"password": "abcd",
+
+"errorMsg": "Epic sadface: Username is required"
+
+},
+
+{
+
+"testname": "verify user able to check errormsg for empty password",
+
+"username": "user1",
+
+"password": "",
+
+"errorMsg": "Epic sadface: Password is required"
+
+},
+
+{
+
+"testname": "verify user able to check errormsg for wrong credentials",
+
+"username": "user1",
+
+"password": "fsgfteg",
+
+"errorMsg": "Epic sadface: Username and password do not match any user in this service"
+
+}
+
+] 

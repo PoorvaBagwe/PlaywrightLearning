@@ -1,0 +1,13 @@
+{"ts":"2026-09-22T13:58:48.157Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T13:58:49.014Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing delete"}
+{"ts":"2026-09-22T13:58:49.337Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing delete"}
+{"ts":"2026-09-22T13:58:49.495Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:58:49.781Z","level":"INFO","name":"Merv","msg":"DELETE \"/objects/%7B6%7D\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:58:49.884Z","level":"ERROR","name":"Merv","msg":"Expect \"toBe\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:58:50.397Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testcases › Api testing delete (FAILED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:59:57.400Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T13:59:58.295Z","level":"INFO","name":"Merv","msg":"Hook: test start — Api testing delete"}
+{"ts":"2026-09-22T13:59:58.514Z","level":"INFO","name":"Merv","msg":"Hook: test end — Api testing delete"}
+{"ts":"2026-09-22T13:59:58.703Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"request\" › Create request context","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:59:58.945Z","level":"INFO","name":"Merv","msg":"DELETE \"/objects/%7B6%7D\"","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}
+{"ts":"2026-09-22T13:59:59.493Z","level":"ERROR","name":"Merv","msg":"Test finished —  › chromium › api.spec.js › Api testcases › Api testing delete (FAILED)","suite":"playwrightlearning","testcase":"› chromium › api.spec.js › Api testcases › Api testing delete"}

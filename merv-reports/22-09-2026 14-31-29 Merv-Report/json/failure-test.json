@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "exportDate": "Tue Sep 22 2026 14:32:48 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 3,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › valid username and valid password",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:176:26)\n    at LoginPage.validateErrorMsg (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:18:67)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:21\n\nat ..\\pages\\login_page.js:18\n\n  16 |\n  17 | async validateErrorMsg(expectedErrorMsg){\n> 18 |     let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |                                                                   ^\n  19 |     expect(errorMsg).toBe(expectedErrorMsg);\n  20 | }\n  21 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T09:01:30.663Z",
+      "endTime": "2026-09-22T09:02:05.005Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with only spaces",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required\"\nReceived: \"Epic sadface: Username and password do not match any user in this service\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at LoginPage.validateErrorMsg (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:19:22)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:5\n\nat ..\\pages\\login_page.js:19\n\n  17 | async validateErrorMsg(expectedErrorMsg){\n  18 |     let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n> 19 |     expect(errorMsg).toBe(expectedErrorMsg);\n     |                      ^\n  20 | }\n  21 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T09:01:52.857Z",
+      "endTime": "2026-09-22T09:01:53.709Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› chromium › example.spec.js › username with lowercase characters",
+      "status": "FAILED",
+      "failureReason": "Script failure: Test timeout of 30000ms exceeded.\n\nError: locator.textContent: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-test=\"error\"]')\n\n    at Proxy.textContent (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\chunk-NBH34OZ2.js:176:26)\n    at LoginPage.validateErrorMsg (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\pages\\login_page.js:18:67)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:21\n\nat ..\\pages\\login_page.js:18\n\n  16 |\n  17 | async validateErrorMsg(expectedErrorMsg){\n> 18 |     let errorMsg = await this.page.locator('[data-test=\"error\"]').textContent();\n     |                                                                   ^\n  19 |     expect(errorMsg).toBe(expectedErrorMsg);\n  20 | }\n  21 | }",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-22T09:02:16.071Z",
+      "endTime": "2026-09-22T09:02:47.792Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}

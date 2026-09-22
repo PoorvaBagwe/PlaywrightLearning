@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790085949768,
+  "exportDate": "Tue Sep 22 2026 19:35:49 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-22T14:05:46.192Z",
+    "endTime": "2026-09-22T14:05:49.768Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testcases › Api testing",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T14:05:47.148Z",
+        "endTime": "2026-09-22T14:05:47.399Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.217Z",
+            "endTime": "2026-09-22T14:05:47.225Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "GET \"/objects\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.231Z",
+            "endTime": "2026-09-22T14:05:47.430Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.436Z",
+            "endTime": "2026-09-22T14:05:47.437Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      },
+      {
+        "testcaseName": " › chromium › api.spec.js › Api testcases › Api testing post",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-22T14:05:47.457Z",
+        "endTime": "2026-09-22T14:05:47.600Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"request\" › Create request context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.471Z",
+            "endTime": "2026-09-22T14:05:47.471Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "POST \"/objects\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.474Z",
+            "endTime": "2026-09-22T14:05:47.600Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "PASSED",
+            "startTime": "2026-09-22T14:05:47.601Z",
+            "endTime": "2026-09-22T14:05:47.601Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ]
+      }
+    ]
+  }
+}

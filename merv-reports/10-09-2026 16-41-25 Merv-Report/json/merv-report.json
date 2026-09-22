@@ -1,0 +1,364 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1789038701420,
+  "exportDate": "Thu Sep 10 2026 16:41:41 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-10T11:11:25.046Z",
+    "endTime": "2026-09-10T11:11:41.420Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › example.spec.js › PlaywrightLearning",
+        "status": "FAILED",
+        "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-10T11:11:26.018Z",
+        "endTime": "2026-09-10T11:11:33.178Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:26.100Z",
+            "endTime": "2026-09-10T11:11:27.367Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:27.371Z",
+            "endTime": "2026-09-10T11:11:27.448Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:27.451Z",
+            "endTime": "2026-09-10T11:11:27.956Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:27.965Z",
+            "endTime": "2026-09-10T11:11:29.835Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:29.847Z",
+            "endTime": "2026-09-10T11:11:30.222Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:30.230Z",
+            "endTime": "2026-09-10T11:11:30.350Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:30.357Z",
+            "endTime": "2026-09-10T11:11:30.469Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:30.477Z",
+            "endTime": "2026-09-10T11:11:30.503Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:30.508Z",
+            "endTime": "2026-09-10T11:11:30.668Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "FAILED",
+            "startTime": "2026-09-10T11:11:30.695Z",
+            "endTime": "2026-09-10T11:11:30.699Z",
+            "errorMessage": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-849ab758195f51feb8a7-att0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:31.037Z",
+            "endTime": "2026-09-10T11:11:34.499Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-849ab758195f51feb8a7-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › firefox › example.spec.js › PlaywrightLearning",
+        "status": "FAILED",
+        "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+        "tags": [
+          "firefox"
+        ],
+        "startTime": "2026-09-10T11:11:26.018Z",
+        "endTime": "2026-09-10T11:11:36.428Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:26.101Z",
+            "endTime": "2026-09-10T11:11:27.480Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:27.483Z",
+            "endTime": "2026-09-10T11:11:28.239Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:28.243Z",
+            "endTime": "2026-09-10T11:11:30.845Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:30.871Z",
+            "endTime": "2026-09-10T11:11:34.902Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:34.916Z",
+            "endTime": "2026-09-10T11:11:35.388Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:35.401Z",
+            "endTime": "2026-09-10T11:11:35.510Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:35.519Z",
+            "endTime": "2026-09-10T11:11:35.618Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:35.626Z",
+            "endTime": "2026-09-10T11:11:35.645Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:35.654Z",
+            "endTime": "2026-09-10T11:11:35.788Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "FAILED",
+            "startTime": "2026-09-10T11:11:35.820Z",
+            "endTime": "2026-09-10T11:11:35.825Z",
+            "errorMessage": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-0063b54d56ffda712b6a-att0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:37.386Z",
+            "endTime": "2026-09-10T11:11:37.853Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-0063b54d56ffda712b6a-video1.webm"
+        ]
+      },
+      {
+        "testcaseName": " › webkit › example.spec.js › PlaywrightLearning",
+        "status": "FAILED",
+        "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+        "tags": [
+          "webkit"
+        ],
+        "startTime": "2026-09-10T11:11:38.269Z",
+        "endTime": "2026-09-10T11:11:40.836Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:38.388Z",
+            "endTime": "2026-09-10T11:11:38.588Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:38.592Z",
+            "endTime": "2026-09-10T11:11:38.655Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:38.659Z",
+            "endTime": "2026-09-10T11:11:39.138Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:39.145Z",
+            "endTime": "2026-09-10T11:11:39.414Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:39.423Z",
+            "endTime": "2026-09-10T11:11:39.797Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"username\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:39.803Z",
+            "endTime": "2026-09-10T11:11:39.880Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:39.885Z",
+            "endTime": "2026-09-10T11:11:40.106Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Fill \"\" locator('[data-test=\"password\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:40.116Z",
+            "endTime": "2026-09-10T11:11:40.268Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Click locator('[data-test=\"login-button\"]')",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:40.276Z",
+            "endTime": "2026-09-10T11:11:40.574Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Expect \"toBe\"",
+            "stepType": "EXPECT",
+            "status": "FAILED",
+            "startTime": "2026-09-10T11:11:40.616Z",
+            "endTime": "2026-09-10T11:11:40.626Z",
+            "errorMessage": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+            "screenshots": [
+              "screenshots/dd9b2edffe9b7501040c-a2293b609f7805f7dffc-att0.png"
+            ]
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-10T11:11:40.925Z",
+            "endTime": "2026-09-10T11:11:41.092Z",
+            "errorMessage": null,
+            "screenshots": []
+          }
+        ],
+        "videos": [
+          "videos/dd9b2edffe9b7501040c-a2293b609f7805f7dffc-video1.webm"
+        ]
+      }
+    ]
+  }
+}

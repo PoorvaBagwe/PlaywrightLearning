@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "exportDate": "Thu Sep 10 2026 16:41:41 GMT+0530 (India Standard Time)",
+  "suiteTitle": "playwrightlearning",
+  "running": false,
+  "failureCount": 3,
+  "failures": [
+    {
+      "testcaseName": "› chromium › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+      "tags": [
+        "chromium"
+      ],
+      "startTime": "2026-09-10T11:11:26.018Z",
+      "endTime": "2026-09-10T11:11:33.178Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› firefox › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+      "tags": [
+        "firefox"
+      ],
+      "startTime": "2026-09-10T11:11:26.018Z",
+      "endTime": "2026-09-10T11:11:36.428Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    },
+    {
+      "testcaseName": "› webkit › example.spec.js › PlaywrightLearning",
+      "status": "FAILED",
+      "failureReason": "Expect \"toBe\": Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Epic sadface: Username is required1\"\nReceived: \"Epic sadface: Username is required\"\n    at Proxy.toBe (C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\node_modules\\merv-client-playwright\\dist\\playwright-test-shim.js:39:26)\n    at C:\\Users\\Siddhesh\\OneDrive\\Desktop\\PlaywrightLearning\\tests\\example.spec.js:13:20\n\n11 |   let errorMsg = await page.locator('[data-test=\"error\"]').textContent();\n  12 |   console.log(errorMsg);\n> 13 |   expect(errorMsg).toBe(\"Epic sadface: Username is required1\");\n     |                    ^\n  14 | });\n  15 |\n  16 |",
+      "tags": [
+        "webkit"
+      ],
+      "startTime": "2026-09-10T11:11:38.269Z",
+      "endTime": "2026-09-10T11:11:40.836Z",
+      "executionMachine": "LAPTOP-IJ8J9K3F",
+      "testdataSteps": []
+    }
+  ]
+}
