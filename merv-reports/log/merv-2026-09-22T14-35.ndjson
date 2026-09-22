@@ -1,0 +1,13 @@
+{"ts":"2026-09-22T14:36:05.900Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-22T14:36:06.698Z","level":"INFO","name":"Merv","msg":"Hook: test start — validate mock data"}
+{"ts":"2026-09-22T14:36:07.480Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:08.220Z","level":"INFO","name":"Merv","msg":"Hook: page setup — validate mock data","suite":"playwrightlearning","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:08.809Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:09.169Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:09.928Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","suite":"playwrightlearning","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:09.945Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:19.952Z","level":"INFO","name":"Merv","msg":"Wait for timeout","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:20.365Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — validate mock data","suite":"playwrightlearning","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:21.967Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:21.966Z","level":"INFO","name":"Merv","msg":"Hook: test end — validate mock data","suite":"playwrightlearning","testcase":"mock.spec.js › validate mock data"}
+{"ts":"2026-09-22T14:36:22.778Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › mock.spec.js › validate mock data (PASSED)","suite":"playwrightlearning","testcase":"› chromium › mock.spec.js › validate mock data"}
