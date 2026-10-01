@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "running": false,
+  "lastActivityMillis": 1790148214753,
+  "exportDate": "Wed Sep 23 2026 12:53:34 GMT+0530 (India Standard Time)",
+  "testSuite": {
+    "title": "playwrightlearning",
+    "startTime": "2026-09-23T07:23:25.524Z",
+    "endTime": "2026-09-23T07:23:34.753Z",
+    "testCases": [
+      {
+        "testcaseName": " › chromium › storagestate.spec.js › create storage state",
+        "status": "PASSED",
+        "failureReason": null,
+        "tags": [
+          "chromium"
+        ],
+        "startTime": "2026-09-23T07:23:26.489Z",
+        "endTime": "2026-09-23T07:23:32.188Z",
+        "executionMachine": "LAPTOP-IJ8J9K3F",
+        "testSteps": [
+          {
+            "teststepName": "Before Hooks › Fixture \"browser\" › Launch browser",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:26.555Z",
+            "endTime": "2026-09-23T07:23:27.428Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"context\" › Create context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:27.434Z",
+            "endTime": "2026-09-23T07:23:27.451Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Before Hooks › Fixture \"page\" › Create page",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:27.454Z",
+            "endTime": "2026-09-23T07:23:28.312Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Navigate to \"/books\"",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:28.341Z",
+            "endTime": "2026-09-23T07:23:31.044Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Evaluate",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:31.062Z",
+            "endTime": "2026-09-23T07:23:31.201Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "Evaluate",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:31.202Z",
+            "endTime": "2026-09-23T07:23:31.206Z",
+            "errorMessage": null,
+            "screenshots": []
+          },
+          {
+            "teststepName": "After Hooks › Fixture \"context\" › Close context",
+            "stepType": "PLAYWRIGHT_API",
+            "status": "PASSED",
+            "startTime": "2026-09-23T07:23:31.475Z",
+            "endTime": "2026-09-23T07:23:33.098Z",
+            "errorMessage": null,
+            "screenshots": [
+              "screenshots/7544586a711e8e1b6d47-fef62258b2e038b90b4e-att0.png"
+            ]
+          }
+        ],
+        "videos": [
+          "videos/7544586a711e8e1b6d47-fef62258b2e038b90b4e-video1.webm"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{"ts":"2026-09-23T06:53:38.026Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-23T06:54:10.268Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-23T06:54:11.140Z","level":"INFO","name":"Merv","msg":"Hook: test start — practice cookies"}
+{"ts":"2026-09-23T06:54:11.681Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:11.725Z","level":"INFO","name":"Merv","msg":"Hook: page setup — practice cookies","suite":"playwrightlearning","testcase":"storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:12.004Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:12.284Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:12.693Z","level":"INFO","name":"Merv","msg":"Expect \"toBe\"","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:18.967Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","suite":"playwrightlearning","testcase":"storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:18.968Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:19.177Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — practice cookies","suite":"playwrightlearning","testcase":"storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:20.890Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:20.895Z","level":"INFO","name":"Merv","msg":"Hook: test end — practice cookies","suite":"playwrightlearning","testcase":"storagestate.spec.js › practice cookies"}
+{"ts":"2026-09-23T06:54:21.230Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › storagestate.spec.js › practice cookies (PASSED)","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › practice cookies"}

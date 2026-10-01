@@ -11,6 +11,7 @@
     "tutor-open": "merv-tutor open"
   },
   "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
     "merv-tutor": "^4.0.22",
     "playwright": "^1.62.1",
     "prompt-sync": "^4.2.0"

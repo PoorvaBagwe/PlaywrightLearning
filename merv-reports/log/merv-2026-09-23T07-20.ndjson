@@ -1,0 +1,29 @@
+{"ts":"2026-09-23T07:20:47.284Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-23T07:20:48.135Z","level":"INFO","name":"Merv","msg":"Hook: test start — create storage state"}
+{"ts":"2026-09-23T07:20:49.111Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:49.634Z","level":"INFO","name":"Merv","msg":"Hook: page setup — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:50.588Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:51.367Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:54.267Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:54.270Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:54.532Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:54.847Z","level":"INFO","name":"Merv","msg":"Evaluate","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:55.418Z","level":"INFO","name":"Merv","msg":"Evaluate","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:56.450Z","level":"INFO","name":"Merv","msg":"Hook: test end — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:57.248Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:20:57.696Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › storagestate.spec.js › create storage state (PASSED)","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:22:52.770Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-23T07:23:25.620Z","level":"INFO","name":"Merv","msg":"Suite started — playwrightlearning","suite":"playwrightlearning"}
+{"ts":"2026-09-23T07:23:26.543Z","level":"INFO","name":"Merv","msg":"Hook: test start — create storage state"}
+{"ts":"2026-09-23T07:23:27.446Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"browser\" › Launch browser","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:28.318Z","level":"INFO","name":"Merv","msg":"Hook: page setup — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:28.789Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"context\" › Create context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:29.477Z","level":"INFO","name":"Merv","msg":"Before Hooks › Fixture \"page\" › Create page","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:31.044Z","level":"INFO","name":"Merv","msg":"Playwright page.goto \"https://demoqa.com/books\"","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:31.044Z","level":"INFO","name":"Merv","msg":"Navigate to \"/books\"","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:31.460Z","level":"INFO","name":"Merv","msg":"Hook: page teardown — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:31.550Z","level":"INFO","name":"Merv","msg":"Evaluate","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:32.235Z","level":"INFO","name":"Merv","msg":"Evaluate","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:33.116Z","level":"INFO","name":"Merv","msg":"Hook: test end — create storage state","suite":"playwrightlearning","testcase":"storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:33.624Z","level":"INFO","name":"Merv","msg":"After Hooks › Fixture \"context\" › Close context","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
+{"ts":"2026-09-23T07:23:34.101Z","level":"INFO","name":"Merv","msg":"Test finished —  › chromium › storagestate.spec.js › create storage state (PASSED)","suite":"playwrightlearning","testcase":"› chromium › storagestate.spec.js › create storage state"}
